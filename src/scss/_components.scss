@@ -1,0 +1,151 @@
+
+//Hamburguer 
+
+.hamburger  {
+  background-color: $color-primary;
+  border-radius: .5rem;
+}
+
+.hamburger--slider {
+
+  .hamburger-inner {
+    top: 5px;
+    &::before {
+      width: 1.5rem;
+    } 
+  }
+
+}
+
+
+.navbar-brand {
+  &__image {
+    margin-bottom: -.35rem;
+  }
+}
+
+.btn-acme {
+  color: $color-lightest;
+  background-color: $color-primary;
+  font-weight: 500;
+  padding: .3rem .8rem;
+  border-radius: .5rem;
+  
+
+  &:hover {
+    background-color: lighten($color-primary, 10%);
+    color: $color-lightest;
+  }
+}
+
+.fa-search {
+  color: $color-lightest;
+  background-color: $color-lighter;
+}
+
+.input-group {
+  span {
+    & .input-group-text {
+      border: 1px solid #dee2e6;
+      border-left: none;
+      border-top-right-radius: .5rem;
+      border-bottom-right-radius: .5rem;
+    }
+  }
+
+}
+
+.search {
+
+  &__form {
+    width: 80%;
+    min-width: 26rem;
+
+    @media (max-width: 700px) { 
+      width: 85%;
+      min-width: 0;
+    }
+  }
+
+  
+
+  &__input {
+    color: $color-dark;
+    background-color: $color-lighter;
+    height: 2.9rem;
+
+    &:focus {
+      background-color: $color-lighter;
+    }
+  }
+
+  &__label {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 1rem 0 0;
+    color: $color-dark;
+    font-size: 1.25rem;
+  }
+
+}
+
+.input-group > .form-control:not(:first-child) {
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+}
+
+.input-group-text {
+  &:focus {
+    outline: none;
+  }
+}
+
+
+.gallery {
+  &__card {
+    margin-bottom: 1.87rem;
+    border: none;
+   }
+
+}
+
+.card-body {
+  padding: .9rem 0 .7rem 0.5rem;
+  line-height: .4rem;
+  color: $color-darken;
+  
+  @media (max-width: 450px) {  
+    padding: .7rem 1rem .7em 1rem;
+  }
+
+  &__container {
+    margin: 0;
+    min-height: 4.43rem;
+    background-color: $color-lighter;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.load-more {
+
+  &__btn {
+    color: $color-primary;
+    font-size: 1.25rem;
+  }
+}
+
+
+.footer__copy {
+  margin-bottom: -2px;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-left: .75rem;
+}

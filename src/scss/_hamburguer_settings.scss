@@ -1,0 +1,24 @@
+$hamburger-padding-x           : .6rem;
+$hamburger-padding-y           : .4rem;
+$hamburger-layer-width         : 30px;
+$hamburger-layer-height        : 4px !default;
+$hamburger-layer-spacing       : 6px !default;
+$hamburger-layer-color         : $color-lightest;
+$hamburger-layer-border-radius : 1rem;
+$hamburger-hover-opacity       : 1;
+$hamburger-active-layer-color  : $color-lightest;
+$hamburger-active-hover-opacity: 1;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter   : false !default;
+$hamburger-hover-filter       : opacity(100%);
+$hamburger-active-hover-filter: $hamburger-hover-filter !default;
+
+// Types (Remove or comment out what you don’t need)
+$hamburger-types: (
+  slider
+);
+
+

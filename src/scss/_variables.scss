@@ -1,0 +1,29 @@
+
+//COLORS
+$color-primary: #C23F81;
+$color-darken: #313131;
+$color-dark: #888888;
+$color-light: #B2B2B2;
+$color-lighter: #ECECEC;
+$color-lightest: #fff;
+// $color-card-bg: #D6D5D6;
+
+
+//BREAKPOINTS
+$container-max-widths: (
+    xs: 540px,
+    sm: 700px,
+    md: 960px,
+    lg: 1280px
+);
+
+$grid-width: 86.7%;
+$grid-margin: (100% - $grid-width) / 2;
+
+
+//GRID
+@mixin grid {
+  width: $grid-width;
+  padding: 0;
+  margin: 0 auto;
+}
