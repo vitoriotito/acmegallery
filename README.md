@@ -1,6 +1,6 @@
-#Acme Gallery Test
+# Acme Gallery Test
 
-##Instructions:
+## Instructions:
 
 Download and run ```$ npm install``` in that directory to get started.
 
