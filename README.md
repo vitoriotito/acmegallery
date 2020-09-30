@@ -1,4 +1,4 @@
-# Acme Gallery Test
+# Acme Gallery
 
 ## Instructions:
 
